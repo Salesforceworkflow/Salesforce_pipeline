@@ -1,0 +1,1 @@
+public class SimpleContactHelper { public static String getWelcomeMessage() { return 'Welcome to Simple Pipeline! Deployed at: ' + System.now().format(); } public static String getSystemInfo() { return 'Pipeline working on: ' + UserInfo.getOrganizationName(); } }
